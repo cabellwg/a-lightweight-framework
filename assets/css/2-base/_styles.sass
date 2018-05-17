@@ -1,0 +1,26 @@
+// !compileOnSave
+
+// Some basic classes and styles
+.gigantic, .huge, .big, .title, h1, h2, h3, .heading, .large, .heavy
+  +font-heavy
+  font-size: 2.5em
+  color: $primarycolor
+
+.medium, .normal, h4, h5, h6, button
+  +font-medium
+  font-size: 1em
+  color: $secondarycolor
+
+.small, .light, p, caption, th, thead, input, textarea, .text, .blockoftext
+  +font-light
+  font-size: 1em
+  color: $primarycolor
+
+a
+  +font-medium
+  font-size: 1em
+  color: $linkcolor
+  text-decoration: none
+
+  &:hover
+    color: $linkhovercolor
